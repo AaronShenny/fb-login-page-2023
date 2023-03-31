@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(240, 242, 245);
+    margin: 0;
+    padding: 0;
+    width: ;
+
+}
+
+body {
+    
+  }
+.body{
+
+}
+.fbinfo{
+    height: 574px;
+    width: 516px;
+    padding-top: 181px;
+    padding-left: 218px;
+}
+.fb-logo-img{
+    
+    height: 103px;
+}
+.fb-logo-sub{
+padding-left: -37px;
+padding-bottom: 8px;
+padding-top: -22px;
+margin: 0%;
+width: 489px;
+}
+.loginpg{
+    border-radius: 10px;
+    height: 359px;
+    width: 378px;
+    color: white;
+    background-color: white;
+    float: right;
+    margin-top: -625px;
+    margin-right: 281px;
+    padding-top: 28px;
+    padding-left: 13px;
+    font-family: inherit;
+    padding-right: 13px;
+
+
+
+}
+.fb-loginform{
+
+}
+.fb-email{
+    border-radius: 5px;
+    height: 47px;
+    width: 371px;
+    border-color: rgb(221, 223, 226);
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: gray;
+}
+
+
+.fb-pass{
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 47px;
+    width: 371px;
+    margin-bottom: 10px;
+    border-color: rgb(221, 223, 226);
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: gray;
+}
+
+
+.fb-pass:focus{
+    border-color: blue;
+}
+.fb-forgotpass{
+    margin-top: 60px;
+    text-decoration: none;
+    margin-left: 114px;
+
+}
+.fb-line{
+    margin-top: 30px;
+    margin: none;
+    padding: none;
+
+}
+.fb-createac{
+    background-color: rgb(54, 164, 32);
+    color: white;
+    font-size: 100px;
+    height: 45px;
+    width: 204px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 82px;
+    margin-top: 31px;
+}
+
+
+.pagecreate{
+    margin-left: 790px;
+    width: auto;
+    margin-top: -220px;
+    
+}
+.fb-pgcreate{
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+    margin-top: -625px;
+
+
+}
+
+
+.fb-logo-div{
+    height: 95px;
+    width: 273px;
+    border: none;
+
+}
+
+
+
+
+
+.fb-logosub-div{
+    font-family:  SFProDisplay-Regular, Helvetica, Arial, sans-serif;;
+    padding-left: 26px;
+    font-size: 25px;
+    padding-bottom: 8px;
+    font-size: 28px;
+    line-height: 30px;
+    border: none;
+
+
+}
+
+.fb-login{
+    height: 45px;
+    width: 379px;
+    color: white;
+    background-color :rgb(24, 119, 242) ;
+    border-color: rgb(24, 119, 242);
+    border-radius: 5px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
